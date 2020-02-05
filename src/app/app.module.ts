@@ -27,6 +27,7 @@ import { MachineLearningComponent } from './components/pages/machine-learning/ma
 import { MachineLearningTwoComponent } from './components/pages/machine-learning-two/machine-learning-two.component';
 import { ProjectsComponent } from './components/pages/projects/projects.component';
 import { ProjectDetailsComponent } from './components/pages/project-details/project-details.component';
+import { AfricaWorldairlineComponent } from './components/page/subsidiaries/africa-worldairline/africa-worldairline.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { ProjectDetailsComponent } from './components/pages/project-details/proj
     MachineLearningComponent,
     MachineLearningTwoComponent,
     ProjectsComponent,
-    ProjectDetailsComponent
+    ProjectDetailsComponent,
+    AfricaWorldairlineComponent
   ],
   imports: [
     BrowserModule,
