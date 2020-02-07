@@ -27,7 +27,7 @@ const routes: Routes = [
     {path: 'pricing', component: PricingComponent},
     {path: 'services', component: ServicesComponent},
     {
-        path: 'subsidiaries',
+        path: 'sub',
         loadChildren: () => import('./components/pages/subsidiaries/subsidiaries.module').then(m => m.SubsidiariesModule)
     },
     {path: 'service-details', component: ServiceDetailsComponent},
