@@ -19,7 +19,7 @@ const routes: Routes = [
     {path: 'pkl', component: PklComponent},
     {path: 'sas', component: SasFinanceComponent},
     {path: 'asogli', component: SunonAsogliComponent},
-    {path: 'wtc', component: WtcAccraComponent},
+    {path: 'wtcaccra', component: WtcAccraComponent},
 ];
 
 @NgModule({
